@@ -1,4 +1,4 @@
-select * from tab;
+select * from member;
 -- member
 -- userid,pass, name,ssn,regidate
 -- addr_seq,phone,email,profile, access_num
@@ -17,7 +17,7 @@ SELECT userid, name, account_num, city
 FROM member m, account ac, address ad
 WHERE m.account_seq = ac.account_seq
 AND m.userid = 'Lee'
-AND m.address_seq = ad.addr_seq 
+AND m.addr_seq = ad.addr_seq 
 ;
 
 

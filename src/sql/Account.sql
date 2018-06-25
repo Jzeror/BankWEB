@@ -3,7 +3,8 @@
 select*from tab;
 SELECT *FROM account;
 DROP TABLE account;
-
+SELECT * FROM USER_SEQUENCES;
+DROP SEQUENCE account_seq;
 CREATE SEQUENCE account_seq START WITH 1000;
 CREATE TABLE account(
 	account_seq DECIMAL PRIMARY KEY,

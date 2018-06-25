@@ -9,6 +9,7 @@
 SELECT * FROM tab;
 DROP TABLE address;
 SELECT * FROM address;
+DROP SEQUENCE addr_seq;
 CREATE SEQUENCE addr_seq START WITH 2000;
 
 CREATE TABLE address(
