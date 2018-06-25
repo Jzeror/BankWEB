@@ -23,50 +23,50 @@ CREATE TABLE address(
 INSERT INTO address(
 addr_seq, zipcode, province, city, gugun, doro
 ) VALUES(
-addr_seq.nextval, '05844', 'Gyeonggi-do','paju-si' , 'Gapyeong-gun', 'gahwa-ro'
+addr_seq.nextval, '05844', '경기도','파주시' , '가평군', '가화2로'
 );
 INSERT INTO address(
 addr_seq, zipcode, province, city, gugun, doro
 ) VALUES(
-addr_seq.nextval, '04552', 'Seoul','Seoul -si' , 'Jung-gu', 'Marun-Nae-ro'
+addr_seq.nextval, '04552', '서울','서울시' , '중구', '마루내로'
 );
 INSERT INTO address
 VALUES
 (
-addr_seq.nextval, '08413', 'Gyeonggi-do', 'Hwaseong-si', 'sang-gun','Naruho-ro'
+addr_seq.nextval, '08413', '경기도', '화성시', '상군','나루호로'
 );
 INSERT INTO address
 VALUES
 (
-addr_seq.nextval, '15710', 'Gangwon-do', 'Hoengseong-si', 'Hoengseong-gun','Gadam-ro'
+addr_seq.nextval, '15710', '강원도', '횡성시', '횡성군','가담3로'
 );
 INSERT INTO address
 VALUES
 (
-addr_seq.nextval, '01204', 'Seoul', 'Seoul-si', 'Gangbuk-gu','Solsaeng-ro'
+addr_seq.nextval, '01204', '서울', '서울시', '강북구','솔매22로'
 );
 INSERT INTO address
 VALUES
 (
-addr_seq.nextval, '07512', 'Seoul', 'Seoul-si', 'Gangseo-gu','Yeongseonghwa-ro'
+addr_seq.nextval, '07512', '서울', '서울시', '강서구','화곡4로'
 );
 INSERT INTO address
 VALUES
 (
-addr_seq.nextval, '35417', 'Daejeon', 'Daejeon-si', 'seo-gu','Anjak-ro'
+addr_seq.nextval, '35417', '대전', '대전시', '서구','안작로'
 );
 INSERT INTO address
 VALUES
 (
-addr_seq.nextval, '42157', 'Daegu', 'Daegu-si', 'Susang-gu','Suseong-ro'
+addr_seq.nextval, '42157', '대구', '대구시', '수상구','수상로'
 );
 INSERT INTO address
 VALUES
 (
-addr_seq.nextval, '26471', 'Gangwon-do', 'Wonju-si', 'Raon-gun','Jung-ro'
+addr_seq.nextval, '26471', '강원도', '원주시', '라온군','정7로'
 );
 INSERT INTO address
 VALUES
 (
-addr_seq.nextval, '63166', 'Jeju-do', 'Jeju-si', 'Jeju-gun','Gwangdeok-ro'
+addr_seq.nextval, '63166', '제주도', '제주시', '제주군','광덕로'
 );
