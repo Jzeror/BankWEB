@@ -23,9 +23,10 @@ AND m.addr_seq = ad.addr_seq
 
 SELECT * FROM member;
 DROP TABLE member;
-
+ALTER TABLE member ADD CONSTRAINT address_fk_addr_seq
+    FOREIGN KEY addr_seq REFERENCES address(addr_seq);
 CREATE TABLE member(
-    userid VARCHAR2(20) PRIMARY KEY,
+    userid VARCHAR2(20) CONSTRAINT member_pk_userid PRIMARY KEY,
     pass VARCHAR2(20),
     name VARCHAR2(20), 
     ssn VARCHAR2(8),
