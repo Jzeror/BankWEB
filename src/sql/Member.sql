@@ -7,7 +7,7 @@ select * from member;
 
 --조인
 --*대신 보고 싶은 것만 넣어두 됨.
-SELECT* 
+SELECT*  
 FROM member, account
 WHERE member.account_seq = account.account_seq
 AND member.userid = 'Kim'
